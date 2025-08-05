@@ -1,4 +1,4 @@
-# Culinary Delights - Cooking Blog
+# Val's Delights - Cooking Blog
 
 A beautiful, modern cooking blog built with Next.js, React, and Tailwind CSS. This project features a responsive design, stunning visuals, and an intuitive user experience for food enthusiasts and home cooks.
 

@@ -5,12 +5,12 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    title: 'Culinary Delights | Your Cooking Blog',
+    title: 'Val\'s Delights | Your Cooking Blog',
     description: 'Discover delicious recipes, cooking tips, and culinary adventures. From quick weeknight meals to gourmet dishes, find inspiration for your next kitchen adventure.',
     keywords: 'cooking, recipes, food blog, culinary, cooking tips, delicious meals',
     authors: [{ name: 'Your Name' }],
     openGraph: {
-        title: 'Culinary Delights | Your Cooking Blog',
+        title: 'Val\'s Delights | Your Cooking Blog',
         description: 'Discover delicious recipes, cooking tips, and culinary adventures.',
         type: 'website',
     },

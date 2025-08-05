@@ -23,7 +23,7 @@ export default function Header() {
           <div className="flex items-center space-x-2">
             <ChefHat className="h-8 w-8 text-primary-400" />
             <span className="text-xl font-serif font-semibold text-white">
-              Culinary Delights
+              Val's Delights
             </span>
           </div>
 

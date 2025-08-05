@@ -51,7 +51,7 @@ export default function Footer() {
             <div className="flex items-center space-x-2 mb-4">
               <ChefHat className="h-8 w-8 text-primary-400" />
               <span className="text-xl font-serif font-semibold">
-                Culinary Delights
+                Val's Delights
               </span>
             </div>
             <p className="text-gray-400 mb-6">
@@ -172,7 +172,7 @@ export default function Footer() {
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         {/* Copyright */}
                         <div className="text-gray-400 text-sm">
-                            © {currentYear} Culinary Delights. All rights reserved.
+                            © {currentYear} Val's Delights. All rights reserved.
                         </div>
 
                         {/* Social Links */}

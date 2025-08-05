@@ -13,7 +13,7 @@ const categories = [
     {
         id: 2,
         name: "Asian Fusion",
-        description: "Thai, Chinese, Japanese, and Korean culinary delights",
+        description: "Thai, Chinese, Japanese, and Korean Val's delights",
         icon: Utensils,
         recipeCount: 38,
         color: "bg-orange-500",
