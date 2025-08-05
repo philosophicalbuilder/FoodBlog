@@ -4,26 +4,26 @@ import { useState } from 'react'
 import { Search, Menu, X, ChefHat } from 'lucide-react'
 
 export default function Header() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
-    const [isSearchOpen, setIsSearchOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isSearchOpen, setIsSearchOpen] = useState(false)
 
-    const navigation = [
-        { name: 'Home', href: '/' },
-        { name: 'Recipes', href: '/recipes' },
-        { name: 'Categories', href: '/categories' },
-        { name: 'About', href: '/about' },
-        { name: 'Contact', href: '/contact' },
-    ]
+  const navigation = [
+    { name: 'Home', href: '/' },
+    { name: 'Recipes', href: '/recipes' },
+    { name: 'Categories', href: '/categories' },
+    { name: 'About', href: '/about' },
+    { name: 'Contact', href: '/contact' },
+  ]
 
-    return (
-            <header className="bg-dark-800/90 backdrop-blur-md sticky top-0 z-50 border-b border-dark-700">
+  return (
+    <header className="bg-dark-800/90 backdrop-blur-md sticky top-0 z-50 border-b border-dark-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <ChefHat className="h-8 w-8 text-primary-400" />
             <span className="text-xl font-serif font-semibold text-white">
-              Val's Delights
+              Val's REALLY Awesome Delights
             </span>
           </div>
 
@@ -95,7 +95,7 @@ export default function Header() {
             </div>
           </div>
         )}
-            </div>
-        </header>
-    )
+      </div>
+    </header>
+  )
 } 
