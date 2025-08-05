@@ -71,7 +71,7 @@ export default function AboutPage() {
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 className="text-3xl font-serif font-bold text-white mb-6">
-                            Meet Valerie Chen
+                            Meet Val
                         </h2>
                         <div className="space-y-4 text-gray-300 leading-relaxed">
                             <p>
